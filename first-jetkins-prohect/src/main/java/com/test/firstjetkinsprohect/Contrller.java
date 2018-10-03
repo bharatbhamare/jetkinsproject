@@ -9,6 +9,7 @@ public class Contrller {
 	@GetMapping("/getHello")
 	public String SayHello()
 	{
+		System.out.println("Test SYSO From Shubham Shirore");
 		return "hello shubham";
 	}
 	
